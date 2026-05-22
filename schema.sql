@@ -12,34 +12,32 @@ CREATE TABLE Customer (
 
 );
 
--- Carrier table
+-- Account table
 
-CREATE TABLE Carrier (
+CREATE TABLE Account (
 
-    carrier_id INT PRIMARY KEY,
-
-    carrier_name VARCHAR(100),
-
-    region VARCHAR(50)
-
-);
-
--- Shipment table
-
-CREATE TABLE Shipment (
-
-    shipment_id INT PRIMARY KEY,
+    account_id INT PRIMARY KEY,
 
     customer_id INT,
 
-    carrier_id INT,
+    account_type VARCHAR(20),
 
-    shipment_date DATE,
+    balance DECIMAL(10,2)
 
-    delivery_status VARCHAR(20),
+);
 
-    delivery_time_days INT,
+-- Transaction table
 
-    cost DECIMAL(10,2)
+CREATE TABLE Transaction (
+
+    transaction_id INT PRIMARY KEY,
+
+    account_id INT,
+
+    transaction_date DATE,
+
+    transaction_type VARCHAR(20),
+
+    amount DECIMAL(10,2)
 
 );
