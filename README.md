@@ -1,4 +1,4 @@
-## Project-2-Finance
+## Project 2: Finance – Customer Transactions & Account Insights
 
 Scenario:
 
@@ -12,7 +12,7 @@ You’ve been brought in as a junior data analyst for a regional bank. Your task
 
 4. Provide a list of distinct transaction types recorded in the system. 
 
-5.Show a list of all customers with their account types and balances, even if the customer doesn't have an email address on file. 
+5. Show a list of all customers with their account types and balances, even if the customer doesn't have an email address on file. 
 
 
 ## Skills Practiced
