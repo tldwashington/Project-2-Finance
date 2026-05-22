@@ -1,25 +1,22 @@
-## Project-1-Logistics
+## Project-2-Finance
 
-This SQL mini-project analyzes shipment and carrier data for a mock logistics company. The project focuses on querying relational databases to identify delivery trends, customer contact gaps, and carrier performance metrics. I will document my querying process in answering these questions:
+Scenario:
 
-  1. Calculate the average deliver time per carrier, ordered from slowest to fastest. 
+You’ve been brought in as a junior data analyst for a regional bank. Your task is to analyze customer transaction data, identify trends in account activity, and help flag potential communication issues for client outreach. You’ll work with three tables: Customer, Account, and Transaction.
 
-  2. Generate a list of distinct delivery statuses used across all shipments.
+1. Identify the customer with the highest total transaction amount across all their accounts. 
 
-  3. Create a list of customers showing their full names and label missing emails as 'email needed'.
+2. Find the total transaction amount per account, and filter for accounts where the total is greater than $1,000.
 
-  4. List all shipments with customer and carrier names, including shipments for customers who don't have an email address on file.
+3. Create a report showing each customer's full name. 
+
+4. Provide a list of distinct transaction types recorded in the system. 
+
+5.Show a list of all customers with their account types and balances, even if the customer doesn't have an email address on file. 
+
 
 ## Skills Practiced
 
-- SELECT statements
-- DISTINCT queries
-- Aggregate functions (AVG)
-- GROUP BY
-- ORDER BY
-- Table aliases
-- INNER JOIN operations
-- SQL debugging and query refinement
 
 ## Repository Structure
 
@@ -34,8 +31,3 @@ This SQL mini-project analyzes shipment and carrier data for a mock logistics co
 This project was completed as part of a SQL learning series through Data Analytics Simplified in 2026. The exercises focused on building foundational SQL querying skills while documenting analytical thinking and debugging workflows.
 
 ## Key Takeaways
-
-- Learned how aggregate functions interact with GROUP BY
-- Improved understanding of table aliases and JOIN logic
-- Practiced debugging SQL syntax and query structure errors
-- Observed how AVG() handles NULL values in MySQL
