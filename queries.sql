@@ -1,6 +1,6 @@
 Scenario:
 
--- You’ve been brought in as a junior data analyst for a regional bank. Your task is to analyze customer transaction data, identify trends in account activity, and help flag potential communication issues for client outreach. You’ll work with three tables: Customer, Account, and Transaction.
+You’ve been brought in as a junior data analyst for a regional bank. Your task is to analyze customer transaction data, identify trends in account activity, and help flag potential communication issues for client outreach. You’ll work with three tables: Customer, Account, and Transaction.
 
 
 
