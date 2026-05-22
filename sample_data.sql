@@ -2,36 +2,40 @@
 
 INSERT INTO Customer VALUES
 
-(1, 'Lena', 'Morris', 'lena.morris@email.com'),
+(1, 'Amanda', 'Bryant', 'amanda.b@email.com'),
 
-(2, 'Travis', 'Scott', NULL),
+(2, 'Daniel', 'Cole', NULL),
 
-(3, 'Janelle', 'Parker', 'jparker@email.com'),
+(3, 'Priya', 'Sharma', 'priya.s@email.com'),
 
-(4, 'Marcus', 'Jones', 'mjones@email.com');
+(4, 'Luis', 'Martinez', 'luis@email.com');
 
--- Carriers
+-- Accounts
 
-INSERT INTO Carrier VALUES
+INSERT INTO Account VALUES
 
-(101, 'QuickShip Logistics', 'East'),
+(101, 1, 'Checking', 1500.00),
 
-(102, 'NationFreight Co.', 'West'),
+(102, 2, 'Savings', 8000.00),
 
-(103, 'OnTime Express', 'Central');
+(103, 3, 'Checking', 2200.00),
 
--- Shipments
+(104, 4, 'Savings', 5600.00),
 
-INSERT INTO Shipment VALUES
+(105, 1, 'Savings', 3200.00);
 
-(1001, 1, 101, '2023-07-01', 'Delivered', 2, 40.00),
+-- Transactions
 
-(1002, 2, 102, '2023-07-03', 'Delivered', 5, 65.00),
+INSERT INTO Transaction VALUES
 
-(1003, 3, 101, '2023-07-04', 'Pending', NULL, 35.00),
+(1001, 101, '2023-07-01', 'Deposit', 500.00),
 
-(1004, 4, 103, '2023-07-05', 'Delivered', 3, 55.00),
+(1002, 102, '2023-07-02', 'Withdrawal', 1000.00),
 
-(1005, 2, 102, '2023-07-06', 'Delivered', 4, 60.00),
+(1003, 103, '2023-07-03', 'Deposit', 1200.00),
 
-(1006, 1, 103, '2023-07-07', 'Delivered', 2, 42.00);
+(1004, 104, '2023-07-05', 'Withdrawal', 600.00),
+
+(1005, 105, '2023-07-06', 'Deposit', 800.00),
+
+(1006, 101, '2023-07-07', 'Withdrawal', 200.00);
